@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ATM.cpp" />
     <ClCompile Include="NoDaysFinder.cpp" />
     <ClCompile Include="NumberGuesing.cpp" />
     <ClCompile Include="RectangleMaker.cpp" />
