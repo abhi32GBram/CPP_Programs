@@ -12,7 +12,7 @@ void swapper(T& a, T& b)
 }
 
 
-int main_CHANGE_THIS()
+int main_CHANGE_THIS_PLS()
 {
 
 	int a, b;
@@ -39,4 +39,5 @@ int main_CHANGE_THIS()
 
 
 	system("pause>0");
+	return 0;
 }

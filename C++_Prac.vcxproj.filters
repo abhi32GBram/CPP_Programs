@@ -36,5 +36,26 @@
     <ClCompile Include="ATM.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Swapper_Template.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Range_Sum(Recursion).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Class%27n%27Object%28yt%29.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Constructors(yt).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Astrix_HllwTrngle.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pp.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OPPS(Lecture).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
