@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="Astrix_HllwTrngle.C" />
     <ClCompile Include="ATM.cpp" />
+    <ClCompile Include="Constructors(Student).cpp" />
     <ClCompile Include="Constructors(yt).cpp" />
     <ClCompile Include="Encapsulation(yt).cpp" />
     <ClCompile Include="Inheritance(yt).cpp" />
@@ -136,6 +137,8 @@
     <ClCompile Include="NumberGuesing.cpp" />
     <ClCompile Include="Class%27n%27Object%28yt%29.cpp" />
     <ClCompile Include="OPPS(Lecture).cpp" />
+    <ClCompile Include="Pointers.cpp" />
+    <ClCompile Include="Polymorphism(yt).cpp" />
     <ClCompile Include="pp.C" />
     <ClCompile Include="Range_Sum(Recursion).cpp" />
     <ClCompile Include="RectangleMaker.cpp" />

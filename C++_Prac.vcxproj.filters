@@ -22,6 +22,9 @@
     <Filter Include="Source Files\C++_Projects">
       <UniqueIdentifier>{149f84bf-57d6-4864-bdb1-5a5e3eff7dc4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Pointers">
+      <UniqueIdentifier>{cfca91dc-d790-4cd8-91da-b5f27700595b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -71,6 +74,15 @@
     </ClCompile>
     <ClCompile Include="Inheritance(yt).cpp">
       <Filter>Source Files\C++_OPP%27s</Filter>
+    </ClCompile>
+    <ClCompile Include="Polymorphism(yt).cpp">
+      <Filter>Source Files\C++_OPP%27s</Filter>
+    </ClCompile>
+    <ClCompile Include="Constructors(Student).cpp">
+      <Filter>Source Files\C++_OPP%27s</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointers.cpp">
+      <Filter>Source Files\Pointers</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

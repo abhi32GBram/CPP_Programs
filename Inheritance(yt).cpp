@@ -2,53 +2,90 @@
 #include <list>
 using namespace std;
 
-class YouTubeChannel {
+class YouTubeChannel 
+{
 private:
 	string Name;
-	string OwnerName;
 	int SubscribersCount;
-	list<string> PublishedVideoTitles;
+	list<string> Video_Titles;
+
+protected:
+	string OwnerName;
+
 public:
-	YouTubeChannel(string name, string ownerName) {
+	YouTubeChannel(string name, string ownerName) 
+	{
 		Name = name;
 		OwnerName = ownerName;
 		SubscribersCount = 0;
 	}
-	void GetInfo() {
+	void GetInfo() 
+	{
 		cout << "Name: " << Name << endl;
 		cout << "OwnerName: " << OwnerName << endl;
 		cout << "SubscribersCount: " << SubscribersCount << endl;
 		cout << "Videos: " << endl;
-		for (string videoTitle : PublishedVideoTitles) {
+		for (string videoTitle : Video_Titles) 
+		{
 			cout << videoTitle << endl;
 		}
 	}
-	void Subscribe() {
+
+
+	void Subscribe() 
+	{
 		SubscribersCount++;
 	}
-	void Unsubscribe() {
+	void Unsubscribe() 
+	{
 		if (SubscribersCount > 0)
 			SubscribersCount--;
 	}
-	void PublishVideo(string title) {
-		PublishedVideoTitles.push_back(title);
+	void PublishVideo(string title) 
+	{
+		Video_Titles.push_back(title);
 	}
 };
 
-class CodingYTChannel :public YouTubeChannel
+class Coding_YT : public YouTubeChannel 
 {
 public:
-	CodingYTChannel(string Cname, string CownerName) :YouTubeChannel(name, ownerName)
+	Coding_YT(string name, string ownerName) :YouTubeChannel(name, ownerName) 
 	{
 
 	}
+
+	void Action() 
+	{
+		cout << OwnerName << " IS PRACITCING ADVANCED CODING AND IN A HACKATHON  !! " << endl;
+	}
 };
 
-int main_inheritance()
+//
+//class Football_yt : public YouTubeChannel
+//{
+//public:
+//	Coding_YT(string name, string ownerName) :YouTubeChannel(name, ownerName)
+//	{
+//
+//	}
+//
+//	void Action()
+//	{
+//		cout << OwnerName << " IS PRACITCING SKILLS AND ENDURANCE FOR MAX FITNESS   !! " << endl;
+//	}
+//};
+
+int main_inheri()
 {
-	CodingYTChannel yt("Abhiram's Codex", "Abhiram Suradkar ")
+	
+	Coding_YT Coding_YT("H6' CODING CLUB ", "Abhiram");
+	/*Football_yt footbal("H6' FOOTBALL CLUB ", "H6");*/
 
-		return 0;
+	
+	/*football.GetInfo();*/
+	Coding_YT.GetInfo();
+	Coding_YT.Action();
 	system("pause>0");
-
+	return 0;
 }
