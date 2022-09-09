@@ -26,7 +26,7 @@ void student::getdata()
 	cin >> roll_no >> div >> name >> contact_no;
 }
 
-int main()
+int main_OOPS()
 {
 
 	student s1,s2;

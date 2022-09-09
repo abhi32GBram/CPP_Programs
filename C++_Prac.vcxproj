@@ -130,6 +130,8 @@
     <ClCompile Include="Astrix_HllwTrngle.C" />
     <ClCompile Include="ATM.cpp" />
     <ClCompile Include="Constructors(yt).cpp" />
+    <ClCompile Include="Encapsulation(yt).cpp" />
+    <ClCompile Include="Inheritance(yt).cpp" />
     <ClCompile Include="NoDaysFinder.cpp" />
     <ClCompile Include="NumberGuesing.cpp" />
     <ClCompile Include="Class%27n%27Object%28yt%29.cpp" />

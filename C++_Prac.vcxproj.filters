@@ -13,49 +13,64 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\C++_OPP%27s">
+      <UniqueIdentifier>{4a93f5ff-222b-4965-b9d3-a3c8312b6827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\C_Programs">
+      <UniqueIdentifier>{324b1581-fcb3-4031-900c-f1a3acc08e90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\C++_Projects">
+      <UniqueIdentifier>{149f84bf-57d6-4864-bdb1-5a5e3eff7dc4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="NumberGuesing.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="NoDaysFinder.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="PIN_Validation.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="RectangleMaker.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="RangePrimeFinder.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ATM.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Swapper_Template.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Range_Sum(Recursion).cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Class%27n%27Object%28yt%29.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Encapsulation(yt).cpp">
+      <Filter>Source Files\C++_OPP%27s</Filter>
     </ClCompile>
     <ClCompile Include="Constructors(yt).cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\C++_OPP%27s</Filter>
     </ClCompile>
-    <ClCompile Include="Astrix_HllwTrngle.C">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Class%27n%27Object%28yt%29.cpp">
+      <Filter>Source Files\C++_OPP%27s</Filter>
     </ClCompile>
     <ClCompile Include="pp.C">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\C_Programs</Filter>
+    </ClCompile>
+    <ClCompile Include="Astrix_HllwTrngle.C">
+      <Filter>Source Files\C_Programs</Filter>
+    </ClCompile>
+    <ClCompile Include="ATM.cpp">
+      <Filter>Source Files\C++_Projects</Filter>
+    </ClCompile>
+    <ClCompile Include="NoDaysFinder.cpp">
+      <Filter>Source Files\C++_Projects</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberGuesing.cpp">
+      <Filter>Source Files\C++_Projects</Filter>
     </ClCompile>
     <ClCompile Include="OPPS(Lecture).cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\C++_OPP%27s</Filter>
+    </ClCompile>
+    <ClCompile Include="PIN_Validation.cpp">
+      <Filter>Source Files\C++_Projects</Filter>
+    </ClCompile>
+    <ClCompile Include="Range_Sum(Recursion).cpp">
+      <Filter>Source Files\C++_Projects</Filter>
+    </ClCompile>
+    <ClCompile Include="RangePrimeFinder.cpp">
+      <Filter>Source Files\C++_Projects</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleMaker.cpp">
+      <Filter>Source Files\C++_Projects</Filter>
+    </ClCompile>
+    <ClCompile Include="Swapper_Template.cpp">
+      <Filter>Source Files\C++_OPP%27s</Filter>
+    </ClCompile>
+    <ClCompile Include="Inheritance(yt).cpp">
+      <Filter>Source Files\C++_OPP%27s</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
