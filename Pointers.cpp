@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
 // MAKING A FUNCTION TO PRINT THE VALUE INSIDE THE HUMAN VARIABLE 
 void numberPrinter(int* numberPointer /*MAKING POINTER TO BE REFERNCED TO HUMAN VARIABLE */)
 {
@@ -13,7 +12,7 @@ void voidPrinter(void* Pointer, char type)
 }
 
 int main()
-{
+{	
 	
 	int number = 2;
 	//CALLING FUNCTION "NUMBERPRINTER"
