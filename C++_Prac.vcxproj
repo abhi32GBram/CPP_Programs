@@ -132,6 +132,7 @@
     <ClCompile Include="Constructors(Student).cpp" />
     <ClCompile Include="Constructors(yt).cpp" />
     <ClCompile Include="Encapsulation(yt).cpp" />
+    <ClCompile Include="EvenOddSeperator(Array).C" />
     <ClCompile Include="Inheritance(yt).cpp" />
     <ClCompile Include="NoDaysFinder.cpp" />
     <ClCompile Include="NumberGuesing.cpp" />
@@ -145,6 +146,7 @@
     <ClCompile Include="PIN_Validation.cpp" />
     <ClCompile Include="RangePrimeFinder.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="StudentDB.C" />
     <ClCompile Include="Swapper_Template.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

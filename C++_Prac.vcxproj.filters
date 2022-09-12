@@ -84,5 +84,11 @@
     <ClCompile Include="Pointers.cpp">
       <Filter>Source Files\Pointers</Filter>
     </ClCompile>
+    <ClCompile Include="EvenOddSeperator(Array).C">
+      <Filter>Source Files\C_Programs</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentDB.C">
+      <Filter>Source Files\C_Programs</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

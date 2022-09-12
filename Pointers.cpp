@@ -11,7 +11,7 @@ void voidPrinter(void* Pointer, char type)
 	
 }
 
-int main()
+int main_pointers()
 {	
 	
 	int number = 2;

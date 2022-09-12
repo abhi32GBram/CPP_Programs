@@ -1,2 +1,3 @@
-﻿  Pointers.cpp
+﻿  StudentDB.C
+D:\VStudio\PRJOECTS\C++_Prac\C++_Prac\StudentDB.C(15,5): warning C4013: 'gets' undefined; assuming extern returning int
   C++_Prac.vcxproj -> D:\VStudio\PRJOECTS\C++_Prac\x64\Debug\C++_Prac.exe
