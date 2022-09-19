@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-void main_EnO()
+void main_EvennOdd()
 {
     int arr1[10], arr2[10], arr3[10];
     int i, j = 0, k = 0, n, sumEven = 0, sumOdd = 0;
 
     printf(" ----------------------------------------");
-    printf("\nEVEN AND ODD SEPERATOR\n");
+    printf("\n EVEN AND ODD SEPERATOR\n");
     printf("\n---------------------------------------- \n");
 
     printf("ENTER THE ELEMENTS TO BE SEPERATED  :");

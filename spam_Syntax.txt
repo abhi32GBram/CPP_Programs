@@ -1,0 +1,112 @@
+
+++++++++++++++++SUM FROM RANGE OF NUMBERS++++++++++++++++++++ +
+#include <stdio.h>  
+
+int main()
+{
+    int min, max, sum = 0;
+
+    printf("ENTER THE FIRST AND LAST NUMBER : \n");
+    scanf("%d%d", &min, &max);
+
+    printf("\n");
+
+    while (min <= max)
+    {
+        sum = sum + min;
+        min++;
+    }
+    printf("SUM OF RANGE OF NUMBERS IS :  %d\n", sum);
+    return 0;
+}
+
+======================== = EXPONENT - BASE====================================== =
+
+#include <stdio.h>  
+
+int main()
+{
+    int base, exponent;
+    long value = 1;
+    printf("ENTER THE VALUE OF BASE : ");
+    scanf("%d", &base);
+
+    printf("ENTER THE VALUE OF EXPONENT : ");
+    scanf("%d", &exponent);
+
+    while (exponent != 0)
+    {
+        value *= base;
+        exponent--;
+
+    }
+    printf("RESULT IS : %ld", value);
+    return 0;
+
+}
+
+========================================================================
+
+#include <stdio.h>
+
+int main() {
+
+    int numero, rev_Num, remaind, newSum;
+
+    printf("ENTER THE NUMBER TO BE REVERSED :");
+
+    scanf("%d", &numero);
+
+    while (numero != 0) {
+
+        remaind = numero % 10;
+
+        rev_Num = rev_Num * 10 + remaind;
+
+        numero = numero / 10;
+
+    }
+
+    printf("\n THE REVERSED NUMBER IS : %d ", rev_Num);
+
+    newSum = numero + rev_Num;
+    printf("\n THE SUM OF THE ORIGINAL AND REVERSED NUMBER IS : %d+%d=%d", newSum, numero, rev_Num);
+
+    return 0;
+
+}
+
+==============================================================
+#include<stdio.h>  
+int main()
+{
+    int i, fact = 1, number;
+    printf("Enter a number: ");
+    scanf("%d", &number);
+    for (i = 1; i <= number; i++)
+    {
+        fact = fact * i;
+    }
+    printf("Factorial of %d is: %d", number, fact);
+    return 0;
+}
+
+==============================================================
+
+#include <stdio.h>  
+int main()
+{
+    int num, i;
+    printf(" ENTER A NUMBER FOR THE MULT.TABLE :  ");
+    scanf(" %d", &num);
+
+    printf("\n MULTIPLICATION TABLE OF  %d", num);
+
+    for (i = 1; i <= 10; i++)
+    {
+        printf("\n %d * %d = %d", num, i, (num * i));
+    }
+    return 0;
+}
+
+================================================================== =

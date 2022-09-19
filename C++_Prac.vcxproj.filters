@@ -90,5 +90,16 @@
     <ClCompile Include="StudentDB.C">
       <Filter>Source Files\C_Programs</Filter>
     </ClCompile>
+    <ClCompile Include="StudentDB(structres).C">
+      <Filter>Source Files\C_Programs</Filter>
+    </ClCompile>
+    <ClCompile Include="studentDb%28final%29.C">
+      <Filter>Source Files\C_Programs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="spam_Syntax.txt">
+      <Filter>Source Files\C++_Projects</Filter>
+    </Text>
   </ItemGroup>
 </Project>

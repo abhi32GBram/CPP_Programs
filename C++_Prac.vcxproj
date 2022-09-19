@@ -146,8 +146,13 @@
     <ClCompile Include="PIN_Validation.cpp" />
     <ClCompile Include="RangePrimeFinder.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="studentDb%28final%29.C" />
+    <ClCompile Include="StudentDB(structres).C" />
     <ClCompile Include="StudentDB.C" />
     <ClCompile Include="Swapper_Template.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="spam_Syntax.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

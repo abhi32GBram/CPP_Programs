@@ -1,23 +1,67 @@
-//
+
+#include<stdio.h>
+
+/* Function prototype */
+void reverse(int a[100], int n);
+
+void main_arr()
+{
+	int a[100], i, n;
+	/*clrscr();*/
+	printf("Enter n:\n");
+	scanf_s("%d", &n);
+	/* Reading array */
+	for (i = 0; i < n; i++)
+	{
+		printf("a[%d]=", i);
+		scanf_s("%d", &a[i]);
+	}
+	/* Function Call */
+	reverse(a, n);
+	/* Displaying reversed array */
+	printf("Reversed array is:\n");
+	for (i = 0; i < n; i++)
+	{
+		printf("%d\t", a[i]);
+	}
+	return 0;
+}
+/* Function definition for reverse */
+void reverse(int a[10], int n)
+{
+	int i, temp;
+	for (i = 0; i < n / 2; i++)
+	{
+		temp = a[i];
+		a[i] = a[n - 1 - i];
+		a[n - 1 - i] = temp;
+	}
+}
+
+
+
+
+
+
+
 //#include <stdio.h>
-//
-//void main_Sum_Reverse_Array()
+//void main()
 //{
 //    int a[10], b[10], c[10], n, i;
 //
 //    // ADDING ELEMENTS OF 
 //    printf("Enter the number of elements:\t");
-//    scanf_s("%d", &n);
+//    scanf_s_s("%d", &n);
 //
 //    printf("Enter %d elements for array 1:\n", n);
 //
 //    for (i = 0; i < n; i++)
-//        scanf_s("%d", &a[i]);
+//        scanf_s_s("%d", &a[i]);
 //
 //    printf("Enter %d elements for array 2:\n", n);
 //
 //    for (i = 0; i < n; i++)
-//        scanf_s("%d", &b[i]);
+//        scanf_s_s("%d", &b[i]);
 //
 //    for (i = 0; i < n; i++)
 //        c[i] = a[i] + b[i];
@@ -26,52 +70,4 @@
 //
 //    for (i = 0; i < n; i++)
 //        printf("%d\n", c[i]);
-//// ----------------------------------------------------------
-//    int arr[] = { 1, 2, 3, 4, 5 };
-//
-//    //Calculate length of array arr    
-//    int length = sizeof(arr) / sizeof(arr[0]);
-//
-//    printf("Original array: \n");
-//    for (int i = 0; i < length; i++) {
-//        printf("%d ", arr[i]);
-//    }
-//
-//    printf("\n");
-//
-//    printf("Array in reverse order: \n");
-//    //Loop through the array in reverse order    
-//    for (int i = length - 1; i >= 0; i--) {
-//        printf("%d ", arr[i]);
-//    }
-//    // TAKE 10 IMNPUTS AND DISPLAY THE NUMBERS  
-//    int arr[10];
-//    int i;
-//    cout << "--------------------------------------------";
-//    printf("\n\nRead and Print elements of an array:\n");
-//    printf("-----------------------------------------\n");
-//
-//    printf("Input 10 elements in the array :\n");
-//    for (i = 0; i < 10; i++)
-//    {
-//        printf("element - %d : ", i);
-//        scanf("%d", &arr[i]);
-//    }
-//
-//    printf("\nElements in array are: ");
-//    for (i = 0; i < 10; i++)
-//    {
-//        printf("%d  ", arr[i]);
-//    }
-//    printf("\n");
-//
-//
-//
-//
 //}
-//
-//
-//
-//
-//
-//
