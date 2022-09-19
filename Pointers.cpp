@@ -1,6 +1,6 @@
-#include<iostream>
-using namespace std;
-
+//#include<iostream>
+//using namespace std;
+//
 //
 //int getMinNum(int numberArray[], int size) 
 //{
@@ -43,7 +43,7 @@ using namespace std;
 //	}
 //}
 //
-	
+//	
 //
 //int main() 
 //{
@@ -69,18 +69,18 @@ using namespace std;
 //		cout << "BIGGEST NUMBER IS : " << minNum << endl;
 //		cout << " SMALLEST NUMBER IS : " << maxNum << endl;
 //	}
-
-int numbers[5] = { 5,4,-2,29,6 };
-/* cout << "Min is " << getMin(numbers, 5)<< endl;
-cout << "Max is " << getMax(numbers, 5)<< endl;*/
-int min numbers[0];
-int max numbers[0];
-getMinAndMax(numbers, 5, &min, &max);
-cout << "min is " << min << endl;
-cout << "max is " << max << endl;
-	system("pause>0");
-
-}
+//
+//int numbers[5] = { 5,4,-2,29,6 };
+///* cout << "Min is " << getMin(numbers, 5)<< endl;
+//cout << "Max is " << getMax(numbers, 5)<< endl;*/
+//int min numbers[0];
+//int max numbers[0];
+//getMinAndMax(numbers, 5, &min, &max);
+//cout << "min is " << min << endl;
+//cout << "max is " << max << endl;
+//	system("pause>0");
+//
+//}
 //-----------------------------------------------------
 //
 ////  TYPICAL INPUT LINE FOR ARRAY (HERE : 4 INPUTS)
@@ -99,26 +99,26 @@ cout << "max is " << max << endl;
 //		cout << *(numberArray + i) << " ";
 //	}
 //------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //void printNumber(int* numberPtr) 
 //{
