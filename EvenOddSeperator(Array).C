@@ -8,7 +8,7 @@ void main_EvennOdd()
     printf(" ----------------------------------------");
     printf("\n EVEN AND ODD SEPERATOR\n");
     printf("\n---------------------------------------- \n");
-
+            
     printf("ENTER THE ELEMENTS TO BE SEPERATED  :");
     scanf_s("%d", &n);
 

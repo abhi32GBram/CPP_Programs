@@ -1,7 +1,2 @@
-﻿  Pointers.cpp
-D:\VStudio\PRJOECTS\C++_Prac\C++_Prac\Pointers.cpp(69,51): error C2059: syntax error: ';'
-D:\VStudio\PRJOECTS\C++_Prac\C++_Prac\Pointers.cpp(73,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-D:\VStudio\PRJOECTS\C++_Prac\C++_Prac\Pointers.cpp(73,2): error C2365: 'system': redefinition; previous definition was 'function'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(1211): message : see declaration of 'system'
-D:\VStudio\PRJOECTS\C++_Prac\C++_Prac\Pointers.cpp(75,1): error C2059: syntax error: '}'
-D:\VStudio\PRJOECTS\C++_Prac\C++_Prac\Pointers.cpp(75,1): error C2143: syntax error: missing ';' before '}'
+﻿  Array_Operations.cpp
+  C++_Prac.vcxproj -> D:\VStudio\PRJOECTS\C++_Prac\x64\Debug\C++_Prac.exe

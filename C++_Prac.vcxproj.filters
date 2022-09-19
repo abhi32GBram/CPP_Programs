@@ -25,6 +25,9 @@
     <Filter Include="Source Files\Pointers">
       <UniqueIdentifier>{cfca91dc-d790-4cd8-91da-b5f27700595b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\C++ Concepts">
+      <UniqueIdentifier>{192a8a61-70a0-414b-b12e-76beebc5eea2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -95,6 +98,12 @@
     </ClCompile>
     <ClCompile Include="studentDb%28final%29.C">
       <Filter>Source Files\C_Programs</Filter>
+    </ClCompile>
+    <ClCompile Include="Array_Operations.cpp">
+      <Filter>Source Files\C++ Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="EvenOdd_Seperator(Array).cpp">
+      <Filter>Source Files\C++_Projects</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

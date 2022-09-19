@@ -127,12 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Array_Operations.cpp" />
     <ClCompile Include="Astrix_HllwTrngle.C" />
     <ClCompile Include="ATM.cpp" />
     <ClCompile Include="Constructors(Student).cpp" />
     <ClCompile Include="Constructors(yt).cpp" />
     <ClCompile Include="Encapsulation(yt).cpp" />
     <ClCompile Include="EvenOddSeperator(Array).C" />
+    <ClCompile Include="EvenOdd_Seperator(Array).cpp" />
     <ClCompile Include="Inheritance(yt).cpp" />
     <ClCompile Include="NoDaysFinder.cpp" />
     <ClCompile Include="NumberGuesing.cpp" />
