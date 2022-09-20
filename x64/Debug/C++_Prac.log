@@ -1,2 +1,4 @@
-﻿  Array_Operations.cpp
-  C++_Prac.vcxproj -> D:\VStudio\PRJOECTS\C++_Prac\x64\Debug\C++_Prac.exe
+﻿  MultiDimentional_Array.cpp
+  Pointers.cpp
+  Generating Code...
+D:\VStudio\PRJOECTS\C++_Prac\C++_Prac\MultiDimentional_Array.cpp(13): error C4700: uninitialized local variable 'coloums' used

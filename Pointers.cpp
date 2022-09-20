@@ -1,7 +1,32 @@
-//#include<iostream>
-//using namespace std;
-//
-//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //int getMinNum(int numberArray[], int size) 
 //{
 //	int minNum = numberArray[0];
@@ -59,7 +84,7 @@
 //	cout << " SMALLEST NUMER IS : " << getMinNum(numberArray,5) << endl;
 //	cout << " BIGGEST NUMBER IS : " << getMaxNum(numberArray, 5) << endl;*/
 //
-//	//// ----------------------------
+//	// ----------------------------
 //
 //	int minNum = numberArray[0];
 //	int maxNum = numberArray[0];
@@ -99,27 +124,6 @@
 //		cout << *(numberArray + i) << " ";
 //	}
 //------------------------------------------------------
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //void printNumber(int* numberPtr) 
 //{
 //	cout << *numberPtr << endl;
@@ -151,7 +155,7 @@
 //	system("pause>0");
 //
 //}
-//------------------------------------------------------------------
+//// ------------------------------------------------------------------
 //#include <iostream>
 //using namespace std;
 //

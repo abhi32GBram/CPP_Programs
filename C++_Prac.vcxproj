@@ -136,6 +136,7 @@
     <ClCompile Include="EvenOddSeperator(Array).C" />
     <ClCompile Include="EvenOdd_Seperator(Array).cpp" />
     <ClCompile Include="Inheritance(yt).cpp" />
+    <ClCompile Include="MultiDimentional_Array.cpp" />
     <ClCompile Include="NoDaysFinder.cpp" />
     <ClCompile Include="NumberGuesing.cpp" />
     <ClCompile Include="Class%27n%27Object%28yt%29.cpp" />

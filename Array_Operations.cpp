@@ -52,14 +52,14 @@ int main()
     cout << endl;
     cout << "----------------------------------------------------------------------------" << endl;
 
-
+    // INSERTING ELEMENTS IN ARRAY 
     /*int arr[6], i, elem;*/
 
     cout << "====================";
-    cout << "~ ARRAY INSERTION ~" << endl;
-    cout << "====================";
+    cout << " ARRAY INSERTION ~";
+    cout <<  "====================";
 
-    cout << "ENTER 5 ARRAY ELEMENTS: ";
+    cout << "\n ENTER 5 ARRAY ELEMENTS: \n ";
     for (i = 0; i < 5; i++)
     {
         cin >> arr[i];
@@ -78,14 +78,35 @@ int main()
         cout << arr[i] << "  ";
     }
     cout << endl;
-    return 0;
-}
+    
+    cout << " ----------------------------------------------------------" << endl;
 
-/* TO INSERT AN ELEMENT IN ARRAY */
-//
-//int main()
-//{
-//   
-//
-//    return 0;
-//}
+    // INSERTING ELEMENTS IN BETWEEN 2 ELEMENTS (USING POINTER)
+
+    int sizeArr;
+
+    cout << "====================";
+    cout << "~ ARRAY AMMENDING AT RUNTIME (using arrays )  ";
+    cout << "====================";
+
+    cout << " \n \n ENTER SIZE OF ARRAY : ";
+    cin >> sizeArr;
+
+    int* myArr = new int[sizeArr];
+
+
+    for (i = 0; i < sizeArr; i++) 
+    {
+        cout << " \n ELEMENT- [" << i << "]" << " " << ":";
+        cin >> myArr[i];
+    }
+    for (i = 0; i < sizeArr; i++) 
+    {
+        cout << myArr[i] << " ";
+          // *(myArr+i) : CAN BE RE-WRITTEN
+    }
+    delete[]myArr;
+    myArr = NULL;
+    
+
+}
