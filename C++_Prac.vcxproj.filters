@@ -108,6 +108,9 @@
     <ClCompile Include="MultiDimentional_Array.cpp">
       <Filter>Source Files\C++ Concepts</Filter>
     </ClCompile>
+    <ClCompile Include="Array_Operation.C">
+      <Filter>Source Files\C_Programs</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="spam_Syntax.txt">

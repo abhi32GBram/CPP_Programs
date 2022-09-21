@@ -109,14 +109,14 @@ int main()
     myArr = NULL;
  // MERGING TWO ARRAY    
 
-    
+    cout << "----------------------------------";
     int arrayA[100], arrayB[100], arrayMerge[100];
     int sizeA, sizeB, /*i,*/ k;
 
-    cout << " ENTERT SIZE OF FIRST ARRAY : "; 
+    cout << " \nENTERT SIZE OF FIRST ARRAY : "; 
     cin >> sizeA;
 
-    cout << " ENTER " << sizeA << " ELE MENTS IN THE FIRST ARRAY : ";
+    cout << " ENTER " << sizeA << " \n ELEMENTS IN THE FIRST ARRAY : ";
     for (i = 0; i <= sizeA; i++) 
     {
         cin >> arrayA[i];
@@ -124,10 +124,10 @@ int main()
     }
     k = i;
     
-        cout << " ENTERT SIZE OF FIRST ARRAY : ";
+        cout << " \n ENTERT SIZE OF FIRST ARRAY : ";
     cin >> sizeB;
 
-    cout << " ENTER " << sizeA << " ELE MENTS IN THE FIRST ARRAY : ";
+    cout << " ENTER " << sizeA << " \n ELEMENTS IN THE FIRST ARRAY : ";
     for (i = 0; i <= sizeB; i++)
     {
         cin >> arrayB[k];
@@ -135,7 +135,7 @@ int main()
         k++;
     }
 
-    cout << " THE NEW MERGED ARRAY IS : ";
+    cout << " \n THE NEW MERGED ARRAY IS : ";
     for(i=0;i<k;i++)
     {
         cout << arrayMerge[i] << " ";

@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Array_Operation.C" />
     <ClCompile Include="Array_Operations.cpp" />
     <ClCompile Include="Astrix_HllwTrngle.C" />
     <ClCompile Include="ATM.cpp" />
