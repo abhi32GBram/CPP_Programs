@@ -107,6 +107,40 @@ int main()
     }
     delete[]myArr;
     myArr = NULL;
+ // MERGING TWO ARRAY    
+
     
+    int arrayA[100], arrayB[100], arrayMerge[100];
+    int sizeA, sizeB, /*i,*/ k;
+
+    cout << " ENTERT SIZE OF FIRST ARRAY : "; 
+    cin >> sizeA;
+
+    cout << " ENTER " << sizeA << " ELE MENTS IN THE FIRST ARRAY : ";
+    for (i = 0; i <= sizeA; i++) 
+    {
+        cin >> arrayA[i];
+        arrayMerge[i] = arrayA[i];
+    }
+    k = i;
+    
+        cout << " ENTERT SIZE OF FIRST ARRAY : ";
+    cin >> sizeB;
+
+    cout << " ENTER " << sizeA << " ELE MENTS IN THE FIRST ARRAY : ";
+    for (i = 0; i <= sizeB; i++)
+    {
+        cin >> arrayB[k];
+        arrayMerge[k] = arrayB[k];
+        k++;
+    }
+
+    cout << " THE NEW MERGED ARRAY IS : ";
+    for(i=0;i<k;i++)
+    {
+        cout << arrayMerge[i] << " ";
+    }
+    cout << endl;
+    return 0;
 
 }

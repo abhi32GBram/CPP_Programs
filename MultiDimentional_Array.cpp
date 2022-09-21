@@ -5,7 +5,7 @@ int main_multi()
 {
 	int rows, coloums;
 	cout << " ENTER NUMBER OF ROWS AND COLOUMS : ";
-	cin >> rows, coloums;
+	cin >> rows, coloums=0;
 
 	int** table = new int*[rows];
 	for (int i = 0; i < rows; i++) 
