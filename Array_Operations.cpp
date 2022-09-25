@@ -3,7 +3,7 @@
 using namespace std;
 
 // TO DLETE AN ELEMENT IN ARRAY 
-int main() 
+int main_ARRAY_ops() 
 {
 
     int arr[100], tot, i, elem, j, found = 0;
@@ -117,18 +117,18 @@ int main()
     cin >> sizeA;
 
     cout << " ENTER " << sizeA << " \n ELEMENTS IN THE FIRST ARRAY : ";
-    for (i = 0; i <= sizeA; i++) 
+    for (i = 0; i < sizeA; i++) 
     {
         cin >> arrayA[i];
         arrayMerge[i] = arrayA[i];
     }
     k = i;
     
-        cout << " \n ENTERT SIZE OF FIRST ARRAY : ";
+        cout << " \n ENTERT SIZE OF SECOND ARRAY : ";
     cin >> sizeB;
 
-    cout << " ENTER " << sizeA << " \n ELEMENTS IN THE FIRST ARRAY : ";
-    for (i = 0; i <= sizeB; i++)
+    cout << " ENTER " << sizeB << " \n ELEMENTS IN THESE SECOND  ARRAY : ";
+    for (i = 0; i < sizeB; i++)
     {
         cin >> arrayB[k];
         arrayMerge[k] = arrayB[k];

@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main_arrayC()
+int main_ArryaC()
 {
     int aSize, bSize, mergedSize, i, j;
     int a[10], b[10], Merged[20];

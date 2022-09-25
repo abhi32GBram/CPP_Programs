@@ -111,6 +111,9 @@
     <ClCompile Include="Array_Operation.C">
       <Filter>Source Files\C_Programs</Filter>
     </ClCompile>
+    <ClCompile Include="Structures_Bootlaod.cpp">
+      <Filter>Source Files\C++ Concepts</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="spam_Syntax.txt">

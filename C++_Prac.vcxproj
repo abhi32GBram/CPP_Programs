@@ -150,6 +150,7 @@
     <ClCompile Include="PIN_Validation.cpp" />
     <ClCompile Include="RangePrimeFinder.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Structures_Bootlaod.cpp" />
     <ClCompile Include="studentDb%28final%29.C" />
     <ClCompile Include="StudentDB(structres).C" />
     <ClCompile Include="StudentDB.C" />
