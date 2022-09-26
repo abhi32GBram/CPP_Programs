@@ -22,9 +22,6 @@
     <Filter Include="Source Files\C++_Projects">
       <UniqueIdentifier>{149f84bf-57d6-4864-bdb1-5a5e3eff7dc4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Pointers">
-      <UniqueIdentifier>{cfca91dc-d790-4cd8-91da-b5f27700595b}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\C++ Concepts">
       <UniqueIdentifier>{192a8a61-70a0-414b-b12e-76beebc5eea2}</UniqueIdentifier>
     </Filter>
@@ -84,9 +81,6 @@
     <ClCompile Include="Constructors(Student).cpp">
       <Filter>Source Files\C++_OPP%27s</Filter>
     </ClCompile>
-    <ClCompile Include="Pointers.cpp">
-      <Filter>Source Files\Pointers</Filter>
-    </ClCompile>
     <ClCompile Include="EvenOddSeperator(Array).C">
       <Filter>Source Files\C_Programs</Filter>
     </ClCompile>
@@ -111,7 +105,22 @@
     <ClCompile Include="Array_Operation.C">
       <Filter>Source Files\C_Programs</Filter>
     </ClCompile>
-    <ClCompile Include="Structures_Bootlaod.cpp">
+    <ClCompile Include="Structures.cpp">
+      <Filter>Source Files\C++ Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="Maps%28aka Dictionary%29.cpp">
+      <Filter>Source Files\C++ Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="Pokedex(Maps).cpp">
+      <Filter>Source Files\C++_Projects</Filter>
+    </ClCompile>
+    <ClCompile Include="Linked_Lists.cpp">
+      <Filter>Source Files\C++ Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointer.cpp">
+      <Filter>Source Files\C++ Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="Doubley_Linked_Lists.cpp">
       <Filter>Source Files\C++ Concepts</Filter>
     </ClCompile>
   </ItemGroup>

@@ -78,7 +78,7 @@ int main_structures()
 	display_PersonInfo(entity);
 	
 
-
+	return 0;
 	system("pause>0");
 
 }
