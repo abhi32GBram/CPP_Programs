@@ -139,6 +139,7 @@
     <ClCompile Include="EvenOdd_Seperator(Array).cpp" />
     <ClCompile Include="Inheritance(yt).cpp" />
     <ClCompile Include="Linked_Lists.cpp" />
+    <ClCompile Include="LowerTriangular(2D-Array).C" />
     <ClCompile Include="Maps%28aka Dictionary%29.cpp" />
     <ClCompile Include="MultiDimentional_Array.cpp" />
     <ClCompile Include="NoDaysFinder.cpp" />
@@ -159,6 +160,8 @@
     <ClCompile Include="StudentDB(structres).C" />
     <ClCompile Include="StudentDB.C" />
     <ClCompile Include="Swapper_Template.cpp" />
+    <ClCompile Include="Transpose(2D-Array).C" />
+    <ClCompile Include="UpperTriangle%282D-Arary%29.C" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="spam_Syntax.txt" />

@@ -10,7 +10,7 @@ public:
 	Node* previous;
 
 };
-int main()
+int main_doubleLL()
 {
 	// CREATING THE BEGINNING AND THE END POINT- POINTERS OF THE LNKED LIST 
 	Node* head;
@@ -36,7 +36,7 @@ int main()
 	node = new Node();
 	
 
-	
+	return 0;
 	system("pause>0");
 
 }
