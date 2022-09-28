@@ -25,6 +25,9 @@
     <Filter Include="Source Files\C++ Concepts">
       <UniqueIdentifier>{192a8a61-70a0-414b-b12e-76beebc5eea2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\College_Lectures">
+      <UniqueIdentifier>{0e5255f0-de7a-4af5-a570-6e2960e9146e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -132,10 +135,25 @@
     <ClCompile Include="LowerTriangular(2D-Array).C">
       <Filter>Source Files\C_Programs</Filter>
     </ClCompile>
+    <ClCompile Include="OOPs(27-9-22).cpp">
+      <Filter>Source Files\College_Lectures</Filter>
+    </ClCompile>
+    <ClCompile Include="matrixToSparseMatrix(Conversion).C">
+      <Filter>Source Files\C_Programs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source1.C">
+      <Filter>Source Files\C_Programs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source2.C">
+      <Filter>Source Files\C_Programs</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="spam_Syntax.txt">
       <Filter>Source Files\C++_Projects</Filter>
+    </Text>
+    <Text Include="Notes.txt">
+      <Filter>Source Files\College_Lectures</Filter>
     </Text>
   </ItemGroup>
 </Project>

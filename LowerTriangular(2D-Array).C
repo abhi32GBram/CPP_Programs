@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+int main_LTV()
 {
     int i, j, rows, columns;
     int myArr[100][100];

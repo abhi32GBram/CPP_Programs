@@ -1,0 +1,82 @@
+----------------------------------------------------------
+| ~~~Object Oriented Programming (27th September ,2022)~~~ |
+----------------------------------------------------------
+
+(*) #define : Is used to define constants (alternative to 'const' keyword) 
+
+(*) volatile : this keyword tells the compiler that a variables value may be changed in ways it may not be defined in the program 
+
+(*) Static(Storage Class) : Static variables have a property of preserving their value even after they are out of their scope! 
+
+(*)  ++'' : Pre-Increment Operator --> To use the existing value & operate on it AND THEN increment it.
+
+(*)	Generic Programming : *search*
+
+\/ Class : Class is used to specify the form of an object. It combines data representation and methods for  manipulating the data into one neat package.
+
+\/ Constructor :  A special function in class when a new object of the class is created.
+
+\/ Inline Function : The compiler tries to expand the code in the body of the function in place of a call to the function ie. it creates a copy of the desired function in the compiler which reduces the compile time drastically for a particular function.
+
+\/ Return Type  : It is the data type the function will return. Some functions perform their operations but dont return any value, here the return type is 'void'
+
+# Function Overloading : A function can have mutiple definitions for the same function name in the same scope. You can't overload a function declaration that differ only by return type.
+
+# Operator Overloading : An operator can be over-loaded or redefined. Programmer  can use operator with user-defined data types.
+						
+
+
+--------------------------------------------------
+
+Class Program for printing the Complex number given by the user : 
+
+
+class Complex 
+{
+	float real, imag;
+public:
+	void getval(float p, float q )
+	{
+		real = p;
+		imag = q;
+	}
+	void show();
+	
+};
+
+void Complex::show() 
+{
+	cout << real << "+" << imag << " j" << endl;
+}
+
+int main() 
+{
+	Complex c1, c2;
+	c1.getval(2, 3);
+	c2.getval(5, 7);
+	c1.show();
+	c2.show();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
