@@ -1,8 +1,2 @@
-﻿  Source1.C
-D:\VStudio\PRJOECTS\C++_Prac\C++_Prac\Source1.C(60,2): warning C4013: 'print' undefined; assuming extern returning int
-D:\VStudio\PRJOECTS\C++_Prac\C++_Prac\Source1.C(63,22): warning C4047: 'function': 'const char *const ' differs in levels of indirection from 'int'
-D:\VStudio\PRJOECTS\C++_Prac\C++_Prac\Source1.C(63,18): warning C4024: 'printf': different types for formal and actual parameter 1
-D:\VStudio\PRJOECTS\C++_Prac\C++_Prac\Source1.C(65,24): warning C4047: 'function': 'const char *const ' differs in levels of indirection from 'int'
-D:\VStudio\PRJOECTS\C++_Prac\C++_Prac\Source1.C(65,18): warning C4024: 'printf': different types for formal and actual parameter 1
-Source1.obj : error LNK2019: unresolved external symbol print referenced in function main
-D:\VStudio\PRJOECTS\C++_Prac\x64\Debug\C++_Prac.exe : fatal error LNK1120: 1 unresolved externals
+﻿  OOPs.cpp
+  C++_Prac.vcxproj -> D:\VStudio\PRJOECTS\C++_Prac\x64\Debug\C++_Prac.exe

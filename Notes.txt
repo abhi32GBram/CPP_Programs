@@ -58,25 +58,344 @@ int main()
 	c2.show();
 }
 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+----------------------------------------------------------
+| ~~~Object Oriented Programming (3rd October,2022)~~~ |
+----------------------------------------------------------
+
+\/ Access Specifiers : PUBLIC, PRIVATE,PROTRCTED
+
+\/  Protected (Access Specifier) *IMP* : For the current class members the values given for 'Proteected' are 'Private' but when making a new class the previous vlaues can be INHERITED.
+
+#include <iostream>
+using namespace std;
+
+
+~PROGRAM TO DISPLAY  ROLL NUMBER AND CGPA OF 2 STUDENTS - STUD1,STUD2~
+
+
+class AA 
+{
+	int rollNo;
+	float cgpa;
+public:
+
+	void setData(int x,float y);
+	void getData();
+	void displayData() 
+	{
+		cout << rollNo << cgpa << endl;
+	}
+};
+
+ AA ::  setData(int x, float y) 
+{
+	rollNo = x;
+	cgpa = y;
+}
+ AA :: getData() 
+{
+	cout << " ENTER THE ROLL NO & CGPA : ";
+	cin >> rollNo >> cgpa;
+}
+int main() 
+{
+	AA Stud1, Stud2;
+
+	Stud1.getData(1,9);
+	Stud2.setData(2,7);
+	Stud1.displayData();
+	Stud2.displayData();
+
+	return 0;
+}
+
+~~~~~~~~~~~~
+
+(Q.) Design a class - Box, with 3 public data members , 4th  memeber is static named - Count. Make a function called - SetVal, another function of doulbe called - Volume.
+Create 2 or 3 objects and show volume of all objecs and showcase the staus of number  of each box 
+
+#include <iostream>
+using namespace std;
+
+class Box 
+{
+	int l, b, h;
+	static int count;
+public : 
+	void SetVal(int p, int q, int r) 
+	{
+		l = p, b = q, h = r;
+		count++;
+	}
+	double volume(vol) 
+	{
+		return (l * b * h);
+	}
+};
+
+ static  Box:: count();
+int main() 
+{
+	Box b1, b2;
+
+	b1.SetVal(4, 6, 8);
+	cout << "VOLUME OF BOX 1 : " << b1.volume << endl;
+	cout << Box :: count;
+
+	b2.SetVal(5, 2, 6);
+	cout << "VOLUME OF BOX 1 : " << b2.volume << endl;
+	cout << Box :: count;
+
+	return 0;
+	system("pause>0");
+
+}
+---------------------
+(Q.) DESIGN A CLASS - BOX WITH PROVATE DATA MEMEBER L,B,H(DOUBLE DATA TYPE) & IN PUBLIC SECTION THERE IS STATIC VARIABLE COUNT AND 3 ARGUMENT CONSTRUCTOR WITH DEFAULT VALUE(2.0)FOR EACH.
+ALSO INCLUDES A FUNCTION VOLUME(DOUBLE - RETURN TYPE), STATIC COUNT VARIABLE (TO RETURN COUNT OF BOXES).
+
+#include <iostream>
+using namespace std;
+
+class Box  
+{
+	double l, b, h;
+public:
+	static int count;
+	Box(double x=2.0, double y=2.0, double z=2.0 )
+	{
+		l = x, b = y, h = z;
+		count++;
+	}
+	double Volume() 
+	{
+		return (l * b * h);
+	}
+	static int getCountVal() 
+	{
+		return count;
+	}
+};
 
 
 
+int main() 
+{
+	cout << " COUNT OF THE BOXES IS : " << Box::count;
+
+	Box b1, b2(5, 6, 7), b3(2, 3, 4);
+
+	cout << " ENTER L-B-H OF THE BOX  : " << endl;
+	cout << Box::getCountVal;
+
+return 0;
+}
+
+----------
+(Q.)DESIGN CLASS - COMPLEX, IN PUBLIC THERE 0 ARG CONST, 2 ARG CONSTR.WRITE A FUNCTION TO ADD 2 COMPLEX NUMBERS 
+
+#include <iostream>
+using namespace std;
+
+
+Complex complex::Add(complex C) 
+{
+	return(complex(real+C.))
+}
+
+class Complex 
+{
+	double real, imag;
+
+public:
+	Complex() 
+	{
+		cout << "0 Argument Constructor Invokes (Implicitly)";
+	}
+	Complex(double p, double q) 
+	{
+		real = p;
+		imag = q;
+		cout << "THE ZERO ARGUMENT CALLED ";
+	}
+	~Complex()
+	{
+		cout << "OBJECT DESTRUCTOR";
+	}
+
+	void display() 
+	{
+		cout << "REAL PART IS " << real << endl;
+		cout << "IMAGEBARY PART IS " << imag << endl;
+	}
+	Complex Add(complex) 
+};
+
+int main() 
+{
+	Complex c1, c2(1.1,2.2), c3;
+	c1 = Complex(3.3, 2.2);
+
+	c1.display();
+	c2.display();
+	c3.display();
+	
+}
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+----------------------------------------------------------
+| ~~~Object Oriented Programming (4th October,2022)~~~ |
+----------------------------------------------------------
 
 
 
+\/ Simple Inheritance : A -> B
+
+\/ Multi-Level Inheritance : A -> B -> C
+
+\/ Mutiple Inheritance : A -> }
+						      |----> C
+   					     B -> }
+
+(Q.) USING INHERITANCE CALCULATE THE AREA OF A TRIAGNLE FROM THE BASE CLASE WHICH HAS THE FUNCTIONS OFR TAKING INPIT(B,H) AND CALCULATING THE AREA.
 
 
+class Shape 
+{
+protected:
+	int base, height;
+public:
+	void getch();
+	virtual void show();
+};
+
+void Shape::getch() 
+{
+	cout << "ENTER BASE AND HEIGHT OF THE SHAPE : " << endl;
+	cin >> base >> height;
+}
+
+void Shape::show() 
+{
+	cout << "BASE = " << base << ",HEIGHT = " << height << endl;
+}
 
 
+class Triangle : public Shape
+{
+public:
+	void area();
+};
 
+void Triangle::area() 
+{
+	cout << "AREA OF TRIANGLE IS : " << (base * height) * 0.5;
+}
+int main()
+{
+	Triangle T;
+	Shape R;
+	T.getch();
+	T.area();
 
+	cout << endl;
+	cout << endl;
+	  
 
+	R.getch();
+	R.show();
 
+	return 0;
 
+	system("pause>0");
+}
 
+------------
 
+(Q.) USING INHERITANCE MAKE A SUB CLASS AND PRINT A VALUE ASSIGNED TO THE OBJECT OF THE ORIGINAL CLASS 
 
+#include <iostream>
+using namespace std;
 
+class Box 
+{
+protected:
+	double width;
+};
 
+class smallBox : Box
+{
+public:
+	void setSmallWidth(double wid);
+	double getSmallWidth(void);
+};
 
+double smallBox::getSmall5Width(void) 
+{
+	return width;
+}
 
+void smallBox::setSmallWidth(double wid) 
+{
+	width = wid;
+}
+
+int main() 
+{
+	smallBox box;
+
+	box.setSmallWidth(5.0);
+	cout << "WIDTH OF THE BOX IS : " << box.getSmallWidth() << endl;
+
+	return 0;
+}
+-----------------
+(Q.) USING A PARAMTERIZED CONSTRUCTOR GIVE SOME PARAMETERS IN AN EXISTING CONSTRUCTOR AND DISPLAY MESSAGE AKNOWLEDGING THE CREATION OF THE OBJECT 
+
+#include <iostream>
+using namespace std;
+
+class Line 
+{
+public :
+	void set_length(double len);
+	double get_length(void);
+	Line(double len);
+
+private:
+	double length;
+};
+
+Line::Line(double len) 
+{
+	cout << "OBJECTS IS BEING CREATED , LENGTH IS : " << len << endl;
+	length = len;
+}
+
+void Line::set_length(double len) 
+{
+	length = len;
+}
+
+double Line::get_length(void) 
+{
+	return length;
+}
+
+int main() 
+{
+	Line line(10.0);
+	cout << "LENGTH OF THE LINE IS : " << line.get_length() << endl;
+
+	line.set_length(13.0);
+	cout << "LENGTH OF LINE : " << line.get_length() << endl;
+
+	return 0;
+}
+
+--------------------------
+(Q.)

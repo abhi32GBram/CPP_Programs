@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<conio.h>
 
-int main() 
+int main_diagonal() 
 {
 	int myArr[100][100];
 	int i, j, m;

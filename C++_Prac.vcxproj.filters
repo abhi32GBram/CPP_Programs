@@ -123,7 +123,7 @@
     <ClCompile Include="Pointer.cpp">
       <Filter>Source Files\C++ Concepts</Filter>
     </ClCompile>
-    <ClCompile Include="Doubley_Linked_Lists.cpp">
+    <ClCompile Include="Double-LinkedList.cpp">
       <Filter>Source Files\C++ Concepts</Filter>
     </ClCompile>
     <ClCompile Include="Transpose(2D-Array).C">
@@ -135,7 +135,7 @@
     <ClCompile Include="LowerTriangular(2D-Array).C">
       <Filter>Source Files\C_Programs</Filter>
     </ClCompile>
-    <ClCompile Include="OOPs(27-9-22).cpp">
+    <ClCompile Include="OOPs.cpp">
       <Filter>Source Files\College_Lectures</Filter>
     </ClCompile>
     <ClCompile Include="matrixToSparseMatrix(Conversion).C">
@@ -146,6 +146,15 @@
     </ClCompile>
     <ClCompile Include="Source2.C">
       <Filter>Source Files\C_Programs</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>Source Files\C++ Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue.cpp">
+      <Filter>Source Files\C++ Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>Source Files\C++ Concepts</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
