@@ -31,13 +31,13 @@ int main()
 		//cout << iter << endl;
 
 		// EITHER PRINT THE VALUE OF THE ITERATOR BY POINTING TOWARDS IT'S VALUE 
-		cout << *iter << endl;
+		cout << "THE VALUE OF THE POSITION : " << *iter << endl;
 
 		// EITHER PRINT THE ADDRESS OF THE MEMORY LOCATION OF THE ITERATOR 
-		cout << &iter << endl;
+		cout << "THE ADDRESS OF THE ITERATOR : " << &iter << endl;
 
 		// EITHER PRINT THE ADDRESS OF THE MEMORY LOCATION OF THE VALUE 
-		cout << &(*iter) << endl;
+		cout << "THE ADDDRESS OF THE MEMORY LOCATION OF THE VALUE  :\n\n" << &(*iter) << endl;
 
 	}
 	cout << "------------------------------------";
@@ -47,22 +47,22 @@ int main()
 	cout << " \nADDING 5 ELEMENTS TO THE DYNAMIC ARRAY : " << *(iter + 5) << endl;
 
 	// DISPLAY THE SIZE OF THE VECTOR 
-	cout << " SIZE : " << number.size() << endl;
+	cout << "\nSIZE : " << number.size() << endl;
 
 	// THE CAPACITY OF THE VECTOR 
-	cout << "CAPACITY : " << number.capacity() << endl;
+	cout << "\nCAPACITY : " << number.capacity() << endl;
 
 	// THE MAX SIZE OF THE VECTOR DEFINED BY THE DATA YPE 
-	cout << "  MAX SIZE : " << number.max_size() << endl;
+	cout << "\nMAX SIZE : " << number.max_size() << endl;
 
 	// UPDATING THE SIZE OF THE EXISTING VECTOR
-	cout << " NEW SIZE : " << number.size() << endl;
+	cout << "\nNEW SIZE : " << number.size() << endl;
 	number.resize(5);
 
 	// BEFORE UPDATING THE VRECTOR - CHECKING IF THE VECTOR IS EMPTY OR NOT 
 	if (number.empty()) 
 	{
-		cout << "VECTOR IS EMPTY !! \n";
+		cout << "\nVECTOR IS EMPTY !! \n";
 	}
 	else
 	{
@@ -70,24 +70,31 @@ int main()
 	}
 
 	// ACCESSING THE ELEMENT AT AN INDEX USING THE '[ ]'
-	cout << "ELEMENT [0] IS : " << number[0] << endl;
-	cout << "ELEMENT [0] IS : " << number.at(0) << endl;
+	cout << "\nELEMENT [0] IS : " << number[0] << endl;
+	cout << "\nELEMENT [0] IS : " << number.at(0) << endl;
 
 	// DISPLAY THE FIRST ELEMENT OF  THE VECTOR  
-	cout << " FIRST ELEMENT : " << number.front() << endl;
+	cout << "\nFIRST ELEMENT : " << number.front() << endl;
 
 	// DISPLAY THE LAST ELEMENT OF THE VECTOR 
-	cout << " LAST ELEMENT  : " << number.back() << endl;
+	cout << "\nLAST ELEMENT  : " << number.back() << endl;
+
+	// USED TO ADD AN ELEMENT AT A PARTICULAR INDEX BY ADDING THE INDEX CALE WITH THE .BEGIN() TO GIVE THE ADRESS 
+	number.insert(number.begin() + 2, 100);
+	for (auto n : number)
+	{
+		cout << "\n" << n << endl;
+	}
+	// USED TO REMOVE OR ERASE AN ELELMENT FROM THE VECTOR 
+	number.erase(number.begin() + 1);
+
+	// USED TO REMOVE THE LAST ELEMENT OF THE VECTOR
+	number.pop_back();
 
 	// USED TO CLEAR THE WHOLE VECTOR 
 	number.clear();
-	cout << " NEW SIZE (AFTER CLEARING) : " << number.size() << endl;
+	cout << "\nNEW SIZE (AFTER CLEARING) : " << number.size() << endl;
 
-	number.insert(number.begin() + 9, 100);
-	for (auto n : number) 
-	{
-		cout << n << endl;
-	}
 
 	return 0;
 	system("pause>0");
