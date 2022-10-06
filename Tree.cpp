@@ -10,13 +10,13 @@ struct Node
 	//RIGHT - THE CHILD NODE ON RHS OF PARENT NODE 
 
 	int data;
-	Node* left;
-	Node* right;
+	struct Node* left;
+	struct Node* right;
 
 };
 
-//  MAKING A FUNCTION whichASSIGNS THE POINTERS TO THE ROOT NODE AND THE CHILD NODES IE. LEFT AND RIGHT 
-Node* createNode(int data) 
+//  MAKING A FUNCTION WHICH ASSIGNS THE POINTERS TO THE ROOT NODE AND THE CHILD NODES IE. LEFT AND RIGHT 
+struct Node* createNode(int data) 
 {
 	Node* newNode = new Node();
 	newNode->data = data;
@@ -30,13 +30,13 @@ Node* createNode(int data)
 void display_Tree(Node* root) 
 {
 	if (root == nullptr)return;
-	{
-		cout << root->data << endl;
-		display_Tree(root->left);
-		display_Tree(root->right);
-	}
+	
+	cout << root->data << endl;
+	display_Tree(root->left);
+	display_Tree(root->right);
+	
 }
-int main_trees() 
+int main_tree() 
 {
 
 	// CONSTRUCTING THE TREE AND PUTTING VALUES 
@@ -79,7 +79,7 @@ int main_trees()
 
 // EXAMPLE OF A  LEVEL 1 TREE :  
 
-	// ROOT NODE WILL HAVE VALUE - 1 
+// ROOT NODE WILL HAVE VALUE - 1 
 //Node* rootNode = createNode(1);
 
 //// LEFT NODE WILL HAVE VALUE - 2 

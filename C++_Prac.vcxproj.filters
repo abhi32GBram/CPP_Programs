@@ -156,6 +156,12 @@
     <ClCompile Include="Tree.cpp">
       <Filter>Source Files\C++ Concepts</Filter>
     </ClCompile>
+    <ClCompile Include="Trees_pt2.cpp">
+      <Filter>Source Files\C++ Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="Vectors.cpp">
+      <Filter>Source Files\C++ Concepts</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="spam_Syntax.txt">

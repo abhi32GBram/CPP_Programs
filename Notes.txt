@@ -398,4 +398,43 @@ int main()
 }
 
 --------------------------
-(Q.)
+
+\/ Friend Funvtion : A friend function of a class is defined outside the class' scope but it has the power to access all private and protected memebers of the class.Even though the friend function may appear in the class defintion it is not a member function.
+
+#include<iostream>
+using namespace std;
+
+class Box 
+{
+	double width;
+public:
+	double length;
+	friend void display_width(Box buxa);
+	void set_width(double wid);
+};
+
+void Box::set_width(double wid) 
+{
+	width = wid;
+}
+
+void display_width(Box buxa) 
+{
+	cout << "WIDTH OF THE BOX IS : " << buxa.width << endl;
+}
+
+int main() 
+{
+	Box buxa;
+
+	buxa.set_width(13.0);
+	display_width(buxa);
+
+	return 0;
+}
+---------------------------
+
+Inline Functions : It is s powerful concept that is commonly used with classes. If a function is inline - the compiler places it's copy with itself which when called drastically to call that function.
+
+
+

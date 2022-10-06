@@ -169,6 +169,8 @@
     <ClCompile Include="Transpose(2D-Array).C" />
     <ClCompile Include="Tree.cpp" />
     <ClCompile Include="UpperTriangle%282D-Arary%29.C" />
+    <ClCompile Include="Trees_pt2.cpp" />
+    <ClCompile Include="Vectors.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Notes.txt" />
