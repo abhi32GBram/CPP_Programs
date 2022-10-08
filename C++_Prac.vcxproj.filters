@@ -162,6 +162,15 @@
     <ClCompile Include="Vectors.cpp">
       <Filter>Source Files\C++ Concepts</Filter>
     </ClCompile>
+    <ClCompile Include="LinSearch_Algo.cpp">
+      <Filter>Source Files\C++ Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="Linear Search.C">
+      <Filter>Source Files\C_Programs</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorting_Algo.cpp">
+      <Filter>Source Files\C++ Concepts</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="spam_Syntax.txt">

@@ -134,10 +134,13 @@
     <ClCompile Include="Constructors(Student).cpp" />
     <ClCompile Include="Constructors(yt).cpp" />
     <ClCompile Include="Double-LinkedList.cpp" />
+    <ClCompile Include="Sorting_Algo.cpp" />
     <ClCompile Include="Encapsulation(yt).cpp" />
     <ClCompile Include="EvenOddSeperator(Array).C" />
     <ClCompile Include="EvenOdd_Seperator(Array).cpp" />
     <ClCompile Include="Inheritance(yt).cpp" />
+    <ClCompile Include="Linear Search.C" />
+    <ClCompile Include="LinSearch_Algo.cpp" />
     <ClCompile Include="Stack.cpp" />
     <ClCompile Include="Linked_Lists.cpp" />
     <ClCompile Include="LowerTriangular(2D-Array).C" />

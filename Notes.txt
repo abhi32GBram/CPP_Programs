@@ -57,6 +57,63 @@ int main()
 	c1.show();
 	c2.show();
 }
+-----------------------------------
+ADDITION OF 2 COMPLEX NUMBERS 
+
+#include <iostream>
+using namespace std;
+
+class complexNum 
+{
+public:
+	double real, imag;
+	complexNum() 
+	{
+
+	}
+	complexNum(double r, double i) 
+	{
+		real = r;
+		imag = i;
+	}
+	complexNum Add(complexNum);
+
+	void show(void);
+	void get(void);
+};
+
+void complexNum::show() 
+{
+	cout << "YOU'RE COMPLEX NUMBER IS : " << real << "+" << "i" << imag << endl;
+}
+
+void complexNum::get() 
+{
+	cout << " ENTER THE REAL PART : " << endl;
+	cin >> real;
+	cout << "ENTER THE IMAGINARY : " << endl;
+	cin >> imag;
+}
+
+complexNum complexNum::Add(complexNum C) 
+{
+	real += C.real;
+	imag += C.imag;
+	return(complexNum(real, imag));
+}
+
+int main() 
+{
+	complexNum c1, c2, c3;
+	c1.get();
+	c2.get();
+
+	c3 = c1.Add(c2);
+
+	c3.show();
+	
+	return 0;
+}
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
