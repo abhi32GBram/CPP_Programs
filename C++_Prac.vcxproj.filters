@@ -30,7 +30,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="Joe_mama_jigglePhysics.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Encapsulation(yt).cpp">

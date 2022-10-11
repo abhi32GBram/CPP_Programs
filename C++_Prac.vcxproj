@@ -161,7 +161,7 @@
     <ClCompile Include="RectangleMaker.cpp" />
     <ClCompile Include="PIN_Validation.cpp" />
     <ClCompile Include="RangePrimeFinder.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Joe_mama_jigglePhysics.cpp" />
     <ClCompile Include="Source1.C" />
     <ClCompile Include="Source2.C" />
     <ClCompile Include="Structures.cpp" />
