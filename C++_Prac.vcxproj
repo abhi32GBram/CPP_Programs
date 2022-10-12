@@ -134,6 +134,8 @@
     <ClCompile Include="Constructors(Student).cpp" />
     <ClCompile Include="Constructors(yt).cpp" />
     <ClCompile Include="Double-LinkedList.cpp" />
+    <ClCompile Include="insertion_sorting.cpp" />
+    <ClCompile Include="newsort.cpp" />
     <ClCompile Include="Sorting_Algo.cpp" />
     <ClCompile Include="Encapsulation(yt).cpp" />
     <ClCompile Include="EvenOddSeperator(Array).C" />
@@ -161,7 +163,7 @@
     <ClCompile Include="RectangleMaker.cpp" />
     <ClCompile Include="PIN_Validation.cpp" />
     <ClCompile Include="RangePrimeFinder.cpp" />
-    <ClCompile Include="Joe_mama_jigglePhysics.cpp" />
+    <ClCompile Include="Bubble_sort.cpp" />
     <ClCompile Include="Source1.C" />
     <ClCompile Include="Source2.C" />
     <ClCompile Include="Structures.cpp" />

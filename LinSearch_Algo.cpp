@@ -49,7 +49,7 @@ void Lin_search()
 	}
 }
 
-int main_LinSearch()
+int main_linSearch()
 {
 	Lin_search();
 	return 0;

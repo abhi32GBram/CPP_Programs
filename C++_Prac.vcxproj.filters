@@ -30,7 +30,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Joe_mama_jigglePhysics.cpp">
+    <ClCompile Include="Bubble_sort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Encapsulation(yt).cpp">
@@ -169,6 +169,12 @@
       <Filter>Source Files\C_Programs</Filter>
     </ClCompile>
     <ClCompile Include="Sorting_Algo.cpp">
+      <Filter>Source Files\C++ Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="insertion_sorting.cpp">
+      <Filter>Source Files\C++ Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="newsort.cpp">
       <Filter>Source Files\C++ Concepts</Filter>
     </ClCompile>
   </ItemGroup>

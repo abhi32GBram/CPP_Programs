@@ -98,7 +98,7 @@ void Sorter::largest()
 		cout << myArr[t] << "," << flush;
 	}
 }
-int main()
+int main_sort()
 {
 	Sorter sort;
 	sort.smallest();

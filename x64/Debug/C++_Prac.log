@@ -1,2 +1,5 @@
-﻿  Joe_mama_jigglePhysics.cpp
-D:\VStudio\PRJOECTS\C++_Prac\C++_Prac\Joe_mama_jigglePhysics.cpp(10): error C4700: uninitialized local variable 'mypointer' used
+﻿  Bubble_sort.cpp
+D:\VStudio\PRJOECTS\C++_Prac\C++_Prac\Bubble_sort.cpp(26,6): warning C4101: 'temp': unreferenced local variable
+  insertion_sorting.cpp
+  Generating Code...
+  C++_Prac.vcxproj -> D:\VStudio\PRJOECTS\C++_Prac\x64\Debug\C++_Prac.exe
