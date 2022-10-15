@@ -4,18 +4,18 @@ using namespace std;
 
 int main_vectors() 
 {
-	// CREATING A VECTOR ARRAY 
+	// creating a vector array 
 	vector<int>number;
 
-	// ADDING AN ELEMENT WITH THE .PUSH_BACK()
+	// adding an element with the .push_back()
 	number.push_back(0);
 
-	// ADDING 10 ELEMENTS IN THE ARRAY USING STANDARD FOR LOOP 
+	// adding 10 elements in the array using standard for loop 
 	for (int i = 1; i <= 10; i++) 
 	{
 		number.push_back(i);
 	}
-	// 'EASIER' WAY TO PRINT THE ELEMENTS OF THE DYNAMIC ARRAY
+	// 'easier' way to print the elements of the dynamic array
 	//     /\
 	//	   | 
 	//for (int num : number) 
@@ -23,86 +23,86 @@ int main_vectors()
 	//	cout << num << endl;
 	//}
 	
-	// USING FOR LOOP CONSISTING OF AN ITERATOR WITH AN AUTO STORAGE CLASS WHICH WILL TRAVERSE THE DYNAMIC ARRAY 
-	// THE 'AUTO' KEYWORD DETECTS THE RETURN TYPE OF THE ITERATION AND AUTOMATICALLY ACCEPTS IT 
+	// using for loop consisting of an iterator with an auto storage class which will traverse the dynamic array 
+	// the 'auto' keyword detects the return type of the iteration and automatically accepts it 
 	for (auto iter = number.begin(); iter != number.end(); iter++) 
 	{
-		// CANT DIRECTLY PRINT THE ITERATOR 
+		// cant directly print the iterator 
 		//cout << iter << endl;
 
-		// EITHER PRINT THE VALUE OF THE ITERATOR BY POINTING TOWARDS IT'S VALUE 
-		cout << "THE VALUE OF THE POSITION : " << *iter << endl;
+		// either print the value of the iterator by pointing towards it's value 
+		cout << "the value of the position : " << *iter << endl;
 
-		// EITHER PRINT THE ADDRESS OF THE MEMORY LOCATION OF THE ITERATOR 
-		cout << "THE ADDRESS OF THE ITERATOR : " << &iter << endl;
+		// either print the address of the memory location of the iterator 
+		cout << "the address of the iterator : " << &iter << endl;
 
-		// EITHER PRINT THE ADDRESS OF THE MEMORY LOCATION OF THE VALUE 
-		cout << "THE ADDDRESS OF THE MEMORY LOCATION OF THE VALUE  :\n\n" << &(*iter) << endl;
+		// either print the address of the memory location of the value 
+		cout << "the adddress of the memory location of the value  :\n\n" << &(*iter) << endl;
 
 	}
 	cout << "------------------------------------";
 
-	// MAKING AN ITERATOR TO ADD 5 ELEMENTS TO THE FIRST VALUE 
+	// making an iterator to add 5 elements to the first value 
 	auto iter = number.begin();
-	cout << " \nADDING 5 ELEMENTS TO THE DYNAMIC ARRAY : " << *(iter + 5) << endl;
+	cout << " \nadding 5 elements to the dynamic array : " << *(iter + 5) << endl;
 
-	// DISPLAY THE SIZE OF THE VECTOR 
-	cout << "\nSIZE : " << number.size() << endl;
+	// display the size of the vector 
+	cout << "\nsize : " << number.size() << endl;
 
-	// THE CAPACITY OF THE VECTOR 
-	cout << "\nCAPACITY : " << number.capacity() << endl;
+	// the capacity of the vector 
+	cout << "\ncapacity : " << number.capacity() << endl;
 
-	// THE MAX SIZE OF THE VECTOR DEFINED BY THE DATA YPE 
-	cout << "\nMAX SIZE : " << number.max_size() << endl;
+	// the max size of the vector defined by the data ype 
+	cout << "\nmax size : " << number.max_size() << endl;
 
-	// UPDATING THE SIZE OF THE EXISTING VECTOR
-	cout << "\nNEW SIZE : " << number.size() << endl;
+	// updating the size of the existing vector
+	cout << "\nnew size : " << number.size() << endl;
 	number.resize(5);
 
-	// BEFORE UPDATING THE VRECTOR - CHECKING IF THE VECTOR IS EMPTY OR NOT 
+	// before updating the vrector - checking if the vector is empty or not 
 	if (number.empty()) 
 	{
-		cout << "\nVECTOR IS EMPTY !! \n";
+		cout << "\nvector is empty !! \n";
 	}
 	else
 	{
-		cout << "THE VECTOR IS NOT EMPTY \n";
+		cout << "the vector is not empty \n";
 	}
 
-	// ACCESSING THE ELEMENT AT AN INDEX USING THE '[ ]'
-	cout << "\nELEMENT [0] IS : " << number[0] << endl;
-	cout << "\nELEMENT [0] IS : " << number.at(0) << endl;
+	// accessing the element at an index using the '[ ]'
+	cout << "\nelement [0] is : " << number[0] << endl;
+	cout << "\nelement [0] is : " << number.at(0) << endl;
 
-	// DISPLAY THE FIRST ELEMENT OF  THE VECTOR  
-	cout << "\nFIRST ELEMENT : " << number.front() << endl;
+	// display the first element of  the vector  
+	cout << "\nfirst element : " << number.front() << endl;
 
-	// DISPLAY THE LAST ELEMENT OF THE VECTOR 
-	cout << "\nLAST ELEMENT  : " << number.back() << endl;
+	// display the last element of the vector 
+	cout << "\nlast element  : " << number.back() << endl;
 
-	// USED TO ADD AN ELEMENT AT A PARTICULAR INDEX BY ADDING THE INDEX CALE WITH THE .BEGIN() TO GIVE THE ADRESS 
+	// used to add an element at a particular index by adding the index cale with the .begin() to give the adress 
 	number.insert(number.begin() + 2, 100);
 	for (auto n : number)
 	{
 		cout << "\n" << n << endl;
 	}
-	// USED TO REMOVE OR ERASE AN ELELMENT FROM THE VECTOR 
+	// used to remove or erase an elelment from the vector 
 	number.erase(number.begin() + 1);
 
-	// USED TO REMOVE THE LAST ELEMENT OF THE VECTOR
+	// used to remove the last element of the vector
 	number.pop_back();
 
-	// USED TO CLEAR THE WHOLE VECTOR 
+	// used to clear the whole vector 
 	number.clear();
-	cout << "\nNEW SIZE (AFTER CLEARING) : " << number.size() << endl;
+	cout << "\nnew size (after clearing) : " << number.size() << endl;
 
 
 	return 0;
 	system("pause>0");
 
 }
-// VECTORS ARE BETTER IF THE USER WANTS TO CHANGE THE SIZE AND ELEMENTS OF THE ARRAY FREQUENTLY 
-// VAECTORS HIDE THE MEMORY MANAGMENT AND PROVIDES LOT OF FUNCTIONALITIES TO THE USER TO WORK WITH A COLLECTION 
+// vectors are better if the user wants to change the size and elements of the array frequently 
+// vaectors hide the memory managment and provides lot of functionalities to the user to work with a collection 
 
-//STATIC ARRAY ARE BETTER IF THE USER WANTS A FIXED SIZE AND WANTS TO TRAVERSE THE ARRAY QUICKLY 
+//static array are better if the user wants a fixed size and wants to traverse the array quickly 
 
-// DYNAMIC ARRAYS MAKES THE USER TO MAMANGE THEIR OWN MEMORY TO GET A SLIGHT PERFORMANCE BOOST BUT MAKES PUTS THEM AT RISK TO PRODUCE BUGS  
+// dynamic arrays makes the user to mamange their own memory to get a slight performance boost but makes puts them at risk to produce bugs  

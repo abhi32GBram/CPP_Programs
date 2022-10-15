@@ -131,11 +131,15 @@
     <ClCompile Include="Array_Operations.cpp" />
     <ClCompile Include="Astrix_HllwTrngle.C" />
     <ClCompile Include="ATM.cpp" />
+    <ClCompile Include="BubSortBinSearch.cpp" />
     <ClCompile Include="Constructors(Student).cpp" />
     <ClCompile Include="Constructors(yt).cpp" />
     <ClCompile Include="Double-LinkedList.cpp" />
+    <ClCompile Include="insertionsSort.cpp" />
     <ClCompile Include="insertion_sorting.cpp" />
     <ClCompile Include="newsort.cpp" />
+    <ClCompile Include="quickSort.cpp" />
+    <ClCompile Include="Sorters_Menu.cpp" />
     <ClCompile Include="Sorting_Algo.cpp" />
     <ClCompile Include="Encapsulation(yt).cpp" />
     <ClCompile Include="EvenOddSeperator(Array).C" />
@@ -176,6 +180,7 @@
     <ClCompile Include="UpperTriangle%282D-Arary%29.C" />
     <ClCompile Include="Trees_pt2.cpp" />
     <ClCompile Include="Vectors.cpp" />
+    <ClCompile Include="😩QuanDale_LingleDingle😩.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Notes.txt" />

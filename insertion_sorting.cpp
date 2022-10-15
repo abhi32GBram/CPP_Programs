@@ -19,7 +19,7 @@ void insertSort(int arr[], int n)
 }
 
 
-int main() 
+int main_insertion() 
 {
 	int arr[100];
 	int size;

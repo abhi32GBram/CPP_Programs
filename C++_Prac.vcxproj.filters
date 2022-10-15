@@ -177,6 +177,21 @@
     <ClCompile Include="newsort.cpp">
       <Filter>Source Files\C++ Concepts</Filter>
     </ClCompile>
+    <ClCompile Include="😩QuanDale_LingleDingle😩.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BubSortBinSearch.cpp">
+      <Filter>Source Files\C++_Projects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorters_Menu.cpp">
+      <Filter>Source Files\C++_Projects</Filter>
+    </ClCompile>
+    <ClCompile Include="insertionsSort.cpp">
+      <Filter>Source Files\C++ Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="quickSort.cpp">
+      <Filter>Source Files\C++ Concepts</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="spam_Syntax.txt">
