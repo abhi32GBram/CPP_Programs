@@ -1,5 +1,3 @@
-﻿  quickSort.cpp
-D:\VStudio\PRJOECTS\C++_Prac\C++_Prac\quickSort.cpp(53,13): warning C4129: 's': unrecognized character escape sequence
-D:\VStudio\PRJOECTS\C++_Prac\C++_Prac\quickSort.cpp(61,13): warning C4129: 's': unrecognized character escape sequence
-D:\VStudio\PRJOECTS\C++_Prac\C++_Prac\quickSort.cpp(62): error C4700: uninitialized local variable 'end' used
-D:\VStudio\PRJOECTS\C++_Prac\C++_Prac\quickSort.cpp(62): error C4700: uninitialized local variable 'p' used
+﻿  sort.C
+  Sorters_Menu.cpp
+  C++_Prac.vcxproj -> D:\VStudio\PRJOECTS\C++_Prac\x64\Debug\C++_Prac.exe

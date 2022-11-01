@@ -192,6 +192,15 @@
     <ClCompile Include="quickSort.cpp">
       <Filter>Source Files\C++ Concepts</Filter>
     </ClCompile>
+    <ClCompile Include="sort.C">
+      <Filter>Source Files\C_Programs</Filter>
+    </ClCompile>
+    <ClCompile Include="testSpace.cpp">
+      <Filter>Source Files\College_Lectures</Filter>
+    </ClCompile>
+    <ClCompile Include="Testspace.C">
+      <Filter>Source Files\College_Lectures</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="spam_Syntax.txt">

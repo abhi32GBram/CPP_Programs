@@ -139,6 +139,7 @@
     <ClCompile Include="insertion_sorting.cpp" />
     <ClCompile Include="newsort.cpp" />
     <ClCompile Include="quickSort.cpp" />
+    <ClCompile Include="sort.C" />
     <ClCompile Include="Sorters_Menu.cpp" />
     <ClCompile Include="Sorting_Algo.cpp" />
     <ClCompile Include="Encapsulation(yt).cpp" />
@@ -175,6 +176,8 @@
     <ClCompile Include="StudentDB(structres).C" />
     <ClCompile Include="StudentDB.C" />
     <ClCompile Include="Swapper_Template.cpp" />
+    <ClCompile Include="Testspace.C" />
+    <ClCompile Include="testSpace.cpp" />
     <ClCompile Include="Transpose(2D-Array).C" />
     <ClCompile Include="Tree.cpp" />
     <ClCompile Include="UpperTriangle%282D-Arary%29.C" />
