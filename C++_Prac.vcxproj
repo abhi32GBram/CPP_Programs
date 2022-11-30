@@ -132,6 +132,7 @@
     <ClCompile Include="Astrix_HllwTrngle.C" />
     <ClCompile Include="ATM.cpp" />
     <ClCompile Include="BubSortBinSearch.cpp" />
+    <ClCompile Include="Complex_OpOverload.cpp" />
     <ClCompile Include="Constructors(Student).cpp" />
     <ClCompile Include="Constructors(yt).cpp" />
     <ClCompile Include="Double-LinkedList.cpp" />
@@ -171,6 +172,7 @@
     <ClCompile Include="Bubble_sort.cpp" />
     <ClCompile Include="Source1.C" />
     <ClCompile Include="Source2.C" />
+    <ClCompile Include="StacksInC.C" />
     <ClCompile Include="Structures.cpp" />
     <ClCompile Include="studentDb%28final%29.C" />
     <ClCompile Include="StudentDB(structres).C" />
@@ -178,6 +180,7 @@
     <ClCompile Include="Swapper_Template.cpp" />
     <ClCompile Include="Testspace.C" />
     <ClCompile Include="testSpace.cpp" />
+    <ClCompile Include="testSpace_2.C" />
     <ClCompile Include="Transpose(2D-Array).C" />
     <ClCompile Include="Tree.cpp" />
     <ClCompile Include="UpperTriangle%282D-Arary%29.C" />

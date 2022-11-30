@@ -201,6 +201,15 @@
     <ClCompile Include="Testspace.C">
       <Filter>Source Files\College_Lectures</Filter>
     </ClCompile>
+    <ClCompile Include="testSpace_2.C">
+      <Filter>Source Files\College_Lectures</Filter>
+    </ClCompile>
+    <ClCompile Include="StacksInC.C">
+      <Filter>Source Files\C_Programs</Filter>
+    </ClCompile>
+    <ClCompile Include="Complex_OpOverload.cpp">
+      <Filter>Source Files\C++_Projects</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="spam_Syntax.txt">

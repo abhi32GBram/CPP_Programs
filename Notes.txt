@@ -495,3 +495,112 @@ Inline Functions : It is s powerful concept that is commonly used with classes. 
 
 
 
+----------------------------------------------------------------------
+
+//#include <stdio.h>
+//#include<conio.h>
+//
+//
+//struct Node 
+//{
+//	int data;
+//	struct Node* next;
+//
+//};
+//struct Node* head;
+//
+//void beginInsert();
+//void lastInser();
+//void randomInsert();
+//void beginDel();
+//void last_Del();
+//void rand_Del();
+//void traverse();
+//void search();
+//void exit();
+//
+//void main_bruh()
+//{
+//	while
+//	{
+//
+//	
+//		int choice = 0;
+//
+//		printf("\n\n***** MAIN MENU *****");
+//		printf("\nCHOSE AN OPTION FROM THE LIST : \n");
+//		printf("\n-----------------------------------------------------\n");
+//	
+//		printf("\n(1.)INSERT AT THE BEGINNING\n(2.)INSERT AT THE END\n(3.)INSERT AT RANDOM LOCATION\n(4.)DELETE FROM THE BEGGINNING\n(5.)DELETE FROM THE END\n(6.)DELETE NODE AT A SPECIFIC LOCATION\n(7.)SEARCH\n(8.)DISPLAY THE LINKED LIST\n(9.)EXIT");
+//
+//		printf("\n ENTER YOURE CHOICE :");
+//		scanf_s("\n%d", &choice);
+//
+//		switch (choice)
+//		{
+//		case 1:
+//			beginInsert();
+//			break;
+//		case 2:
+//			lastInser();
+//			break;
+//			break;
+//		case 3:
+//			randomInsert();
+//			break;
+//		case 4:
+//			beginDel();
+//			break;
+//		case 5:
+//			last_Del();
+//			break;
+//		case 6:
+//			rand_Del();
+//			break;
+//		case 7:
+//			search();
+//			break;
+//		case 8:
+//			traverse();
+//			break;
+//		case 9:
+//			exit(0);
+//			break;
+//			default;
+//
+//			printf("PLEASE ENTER VALID CHOICE !!!");
+//		}	
+//	}
+//}
+//
+//// WRITING THE FUNCTIONS FOR THE CHOICES 
+//
+//void beginInsert() 
+//{
+//
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -21,7 +21,7 @@ void selection(int ele[15], int no);
 void merge(int[], int, int, int);
 void merge_sort(int[], int, int);
 
-int main()
+int main_sort()
 {
 	int no, ele[15], i, ch;
 
